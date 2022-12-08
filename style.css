@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /* min-height: 100%; */
+    /* overflow: hidden; */
+    /* ctx.strokeStyle= '#b9fbf4'; */
+    /* background-image: linear-gradient(45deg , #180a40 , #333); */
+    background-color: #fff;
+}
+
+.intro{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    z-index: 1;
+  
+}
+
+.intro #intro{
+    position: absolute;
+    /* max-width: 100%; */
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.intro #start{
+    background-color: #b9fbf4;
+    color: #333;
+    padding: 10px 55px;
+    z-index: 1;
+    position:absolute ;
+    border-radius: 20px;
+    border: none;
+    box-shadow:1px 1px 15px #b9fbf4 , -1px -1px 15px #b9fbf4;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.canvas-place{
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+}
+
+.canvas-place canvas{
+    border: 1.75px solid #b9fbf4;
+    box-shadow: 1px 1px  17px #b9fbf4, -1px -1px  17px #b9fbf4;
+}
+/* End Edite Canvas  */
+
+/* Start qustion place  */
+.qustion-place{
+    display: grid;
+    place-items: center;
+    height: 35px;
+    font-size: 25px;
+    font-size: bold;
+    background-color: #b9fbf4;
+    width: 90%;
+    border-radius: 15px;
+    margin: auto;
+    text-transform: capitalize;
+
+}
+
+@media (max-width:767px){
+    .qustion-place{
+        font-size: 19px;
+    }
+}
+/* End qustion place  */
+
+/* Start Word Place  */
+.word-place{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding: 20px 10px;
+}
+.word-place .container{
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.word-place .container span{
+    color: rgba(51, 51, 51, 0);
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: 2px #b9fbf4 solid;
+    border-radius: 10px;
+    transition: .3s;
+    /* text-transform: uppercase; */
+}
+
+ #level{
+    background-color: #b9fbf4;
+    position: fixed;
+    top: 10px;
+    right:5%;
+    width: 100px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.word-place .container span::before{
+    content: '';
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 5px;
+    background-color: #b9fbf4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* End Word Place  */
+
+
+/*Start  keyboard place  */
+.keyboard-place{
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    position: relative;
+    gap: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(13 , 30px);
+}
+
+
+.keyboard-place .chracter{
+    width: 50px;
+    height: 50px;
+   display: grid;
+   place-items: center;
+    border: #333 2px solid;
+    cursor: pointer;
+    transition: .3s;
+    user-select: none;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #ddd,-1px -1px 5px #b9fbf4;
+}
+
+
+@media(max-width:600px){
+    .keyboard-place{
+         display:flex; 
+         flex-wrap: wrap;
+        gap: 10px ;
+    }
+    .keyboard-place .chracter{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+#next , #previous{
+    background-color: #b9fbf4;
+    border:none;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 19px;
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    transition: .3s;
+    user-select: none;
+}
+
+#next{
+    right: -100px;
+}
+
+#previous{
+    left: -100px;
+}
+
+#repeat{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: #b9fbf4;
+    /* height: 5%; */
+    color: #333;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px 0;
+}
+
+@media (max-width:767px){
+    footer{
+        font-size: 14px;
+    }
+}

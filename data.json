@@ -1,0 +1,254 @@
+{
+    "qustions": [
+        {
+            "Lv": 1,
+            "qus": "Red Fruit",
+            "ans": "Apple"
+        },
+        {
+            "Lv": 2,
+            "qus": "Body",
+            "ans": "Heart"
+        },
+        {
+            "Lv": 3,
+            "qus": "Country",
+            "ans": "Egypt"
+        },
+        {
+            "Lv": 4,
+            "qus": "Predator Animal",
+            "ans": "Tiger"
+        },
+        {
+            "Lv": 5,
+            "qus": "Beautiful Bird",
+            "ans": "Peacock"
+        },
+        {
+            "Lv": 6,
+            "qus": "Ice Bird",
+            "ans": "Penguin"
+        },
+        {
+            "Lv": 7,
+            "qus": "The Boy Who Lived",
+            "ans": "Harry Potter"
+        },
+        {
+            "Lv": 8,
+            "qus": "Half Blood Prince",
+            "ans": "Sevrus Snaip"
+        },
+        {
+            "Lv": 9,
+            "qus": "You Know Who",
+            "ans": "Voldemort"
+        },
+        {
+            "Lv": 10,
+            "qus": "Sport",
+            "ans": "Basketball"
+        },
+        {
+            "Lv": 11,
+            "qus": "Body",
+            "ans": "Hand"
+        },
+        {
+            "Lv": 12,
+            "qus": "Browser",
+            "ans": "Firefox"
+        },
+        {
+            "Lv": 13,
+            "qus": "Football Player",
+            "ans": "messi"
+        },
+        {
+            "Lv": 14,
+            "qus": "Games",
+            "ans": "GTA"
+        },
+        {
+            "Lv": 15,
+            "qus": "Actress",
+            "ans": "Emma Watson"
+        },
+        {
+            "Lv": 16,
+            "qus": "colors",
+            "ans": "Orange"
+        },
+        {
+            "Lv": 17,
+            "qus": "Verbs",
+            "ans": "Understand"
+        },
+        {
+            "Lv": 18,
+            "qus": "Nature",
+            "ans": "Tree"
+        },
+        {
+            "Lv": 19,
+            "qus": "Calender",
+            "ans": "July"
+        },
+        {
+            "Lv": 20,
+            "qus": "In The City",
+            "ans": "School"
+        },
+        {
+            "Lv": 21,
+            "qus": "School",
+            "ans": "Pencil"
+        },
+        {
+            "Lv": 22,
+            "qus": "In The House",
+            "ans": "Fan"
+        },
+        {
+            "Lv": 23,
+            "qus": "Beach",
+            "ans": "Umbrella"
+        },
+        {
+            "Lv": 24,
+            "qus": "Food",
+            "ans": "Pasta"
+        },
+        {
+            "Lv": 25,
+            "qus": "Fruits",
+            "ans": "Mango"
+        },
+        {
+            "Lv": 26,
+            "qus": "Desserts",
+            "ans": "Chocolate"
+        },
+        {
+            "Lv": 27,
+            "qus": "Verbs",
+            "ans": "Advise"
+        },
+        {
+            "Lv": 28,
+            "qus": "countries",
+            "ans": "Turkey"
+        },
+        {
+            "Lv": 29,
+            "qus": "Comapnies",
+            "ans": "Tesla"
+        },
+        {
+            "Lv": 30,
+            "qus": "Animals",
+            "ans": "Crocodile"
+        },
+        {
+            "Lv": 31,
+            "qus": "Super Hero",
+            "ans": "Spider Man"
+        },
+        {
+            "Lv": 32,
+            "qus": "Suprmarkets",
+            "ans": "Soap"
+        },
+        {
+            "Lv": 33,
+            "qus": "Games",
+            "ans": "COD"
+        },
+        {
+            "Lv": 34,
+            "qus": "Companies",
+            "ans": "Adobe"
+        },
+        {
+            "Lv": 35,
+            "qus": "Fruits",
+            "ans": "Guava"
+        },
+        {
+            "Lv": 36,
+            "qus": "Animals",
+            "ans": "Gorilla"
+        },
+        {
+            "Lv": 37,
+            "qus": "Food",
+            "ans": "Beef"
+        },
+        {
+            "Lv": 38,
+            "qus": "Colors",
+            "ans": "Purple"
+        },
+        {
+            "Lv": 39,
+            "qus": "Clothes",
+            "ans": "Trouser"
+        },
+        {
+            "Lv": 40,
+            "qus": "Animals",
+            "ans": "Banda"
+        },
+        {
+            "Lv": 41,
+            "qus": "Countries",
+            "ans": "Somalia"
+        },
+        {
+            "Lv": 42,
+            "qus": "Game",
+            "ans": "FIFA"
+        },
+        {
+            "Lv": 43,
+            "qus": "Languages",
+            "ans": "Arabic"
+        },
+        {
+            "Lv": 44,
+            "qus": "Food",
+            "ans": "Hotdog"
+        },
+        {
+            "Lv": 45,
+            "qus": "Colors",
+            "ans": "Aqua"
+        },
+        {
+            "Lv": 46,
+            "qus": "Birds",
+            "ans": "Hoopoe"
+        },
+        {
+            "Lv": 47,
+            "qus": "Countries",
+            "ans": "Palestine"
+        },
+        {
+            "Lv": 48,
+            "qus": "Cursed Occupier People",
+            "ans": "Israeli"
+        },
+        {
+            "Lv": 49,
+            "qus": "Best Book In Whole Life",
+            "ans": "Quran"
+        },
+        {
+            "Lv": 50,
+            "qus": "Best Man In Whole Life",
+            "ans": "Muhammed"
+        }
+    ]
+}
