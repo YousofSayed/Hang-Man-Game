@@ -2,13 +2,7 @@
 let intro = document.querySelector('.intro'),
     startBtn = document.getElementById('start');
 
-window.addEventListener('load',()=>{
-        i= +window.localStorage.getItem('lev');
-        if(i<=0) i=0;
-    if(+window.localStorage.getItem('lev') !== 0){  
-        intro.remove()
-    }
-})
+
 
 function playRealxAud() {
     audRelax.play();
@@ -190,7 +184,15 @@ let qustionplace = document.querySelector('.qustion-place'),
     next = document.getElementById('next');
 //Start Gettint Data From Json
 let data;
-let i = 0;
+window.localStorage.setItem('lev',0);
+let i = +window.localStorage.getItem('lev');
+window.addEventListener('load',()=>{
+        i= +window.localStorage.getItem('lev');
+        if(i<0) i=0;
+    if(+window.localStorage.getItem('lev') !== 0){  
+        intro.remove()
+    }
+})
 function setData(dataArray) {
     qustionplace.textContent = dataArray[i].qus;
     level.textContent = `Lev ${dataArray[i].Lv}`;
