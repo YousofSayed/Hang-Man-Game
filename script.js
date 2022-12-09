@@ -184,9 +184,12 @@ let qustionplace = document.querySelector('.qustion-place'),
     next = document.getElementById('next');
 //Start Gettint Data From Json
 let data;
-let i =0;
+let i = 0 ;
+if(+window.localStorage.getItem('lev') > 0){
+    i = +window.localStorage.getItem('lev');
+}
 window.addEventListener('load',()=>{
-        i= +window.localStorage.getItem('lev');
+//         i= +window.localStorage.getItem('lev');
         if(i<0) i=0;
     if(+window.localStorage.getItem('lev') !== 0){  
         intro.remove()
