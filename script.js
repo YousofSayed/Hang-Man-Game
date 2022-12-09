@@ -188,13 +188,12 @@ let i = 0 ;
 if(+window.localStorage.getItem('lev') > 0){
     i = +window.localStorage.getItem('lev');
 }
-window.addEventListener('load',()=>{
-//         i= +window.localStorage.getItem('lev');
-        if(i<0) i=0;
-    if(+window.localStorage.getItem('lev') !== 0){  
+
+if(i>49) i=0;
+if(+window.localStorage.getItem('lev') > 0){  
         intro.remove()
-    }
-})
+}
+
 function setData(dataArray) {
     qustionplace.textContent = dataArray[i].qus;
     level.textContent = `Lev ${dataArray[i].Lv}`;
