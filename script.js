@@ -184,8 +184,7 @@ let qustionplace = document.querySelector('.qustion-place'),
     next = document.getElementById('next');
 //Start Gettint Data From Json
 let data;
-window.localStorage.setItem('lev',0);
-let i = +window.localStorage.getItem('lev');
+let i =0;
 window.addEventListener('load',()=>{
         i= +window.localStorage.getItem('lev');
         if(i<0) i=0;
@@ -377,8 +376,6 @@ window.addEventListener('keyup',(event)=>{
 //Start Repeat Button
 let reBtn = document.getElementById('repeat');
 
-function reloadWindow() { 
-}
 
 reBtn.addEventListener('click',()=>{
     i = +window.localStorage.getItem('lev');
